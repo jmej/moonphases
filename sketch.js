@@ -32,8 +32,6 @@ function moon(phase, xLoc, yLoc, overallSize){ //phase should be between 0-30
   }else{
     phase = map(phase, 15, 30, 300, 0);
   }
-  
-  image(moons[phase], xLoc, yLoc);
 
   ellipse(xLoc, yLoc, phase*overallSize, phase*overallSize );
 	//print("myCoolFunction is running");
